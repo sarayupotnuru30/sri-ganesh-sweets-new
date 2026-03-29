@@ -19,7 +19,9 @@ const Cart = () => {
 
   if (items.length === 0) {
     return (
-      <div className="min-h-screen pt-24 flex items-center justify-center">
+      <div className="min-h-screen pt-24 flex items-center justify-center relative">
+        <div className="fixed inset-0 -z-10 bg-cover bg-center" style={{ backgroundImage: "url('/bg-cart.jpg')" }} />
+        <div className="fixed inset-0 -z-10 bg-background/85 backdrop-blur-sm" />
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center">
           <ShoppingBag className="w-16 h-16 text-muted-foreground mx-auto mb-4" />
           <h2 className="font-display text-2xl font-bold mb-2">Your cart is empty</h2>
@@ -36,7 +38,9 @@ const Cart = () => {
   }
 
   return (
-    <div className="min-h-screen pt-24">
+    <div className="min-h-screen pt-24 relative">
+      <div className="fixed inset-0 -z-10 bg-cover bg-center" style={{ backgroundImage: "url('/bg-cart.jpg')" }} />
+      <div className="fixed inset-0 -z-10 bg-background/85 backdrop-blur-sm" />
       <section className="section-padding">
         <div className="container mx-auto max-w-4xl">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>

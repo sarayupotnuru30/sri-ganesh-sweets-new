@@ -19,13 +19,11 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background to-accent/5" />
         <div
-          className="absolute inset-0 opacity-10"
-          style={{
-            backgroundImage: "radial-gradient(circle at 20% 50%, hsl(var(--primary) / 0.3) 0%, transparent 50%), radial-gradient(circle at 80% 20%, hsl(var(--accent) / 0.2) 0%, transparent 50%)",
-          }}
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/bg-home.jpg')" }}
         />
+        <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
 
         <div className="relative z-10 container mx-auto px-4 text-center">
           <motion.div
@@ -37,11 +35,9 @@ const Index = () => {
               <Sparkles className="w-4 h-4" /> Authentic Andhra Sweets
             </span>
             <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
-              Experience Authentic
+              Experience Authentic <span className="text-gradient">Sweets</span>
               <br />
-              <span className="text-gradient">Sweets</span> with a
-              <br />
-              Modern Touch
+              with a Modern Touch
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 font-body">
               Fresh • Premium • Traditional Taste
