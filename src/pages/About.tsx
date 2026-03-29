@@ -61,8 +61,8 @@ const About = () => (
             viewport={{ once: true }}
             className="glass-card rounded-3xl p-8 text-center"
           >
-            <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-              <span className="font-display text-4xl font-bold text-primary">SG</span>
+            <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6 overflow-hidden">
+              <img src="/logo.png" alt="Sri Ganesh Sweets" className="w-20 h-20 object-contain" />
             </div>
             <h3 className="font-display text-2xl font-bold mb-2">Sai Ganesh</h3>
             <p className="text-muted-foreground text-sm mb-4">Founder & Chief Sweet Maker</p>
