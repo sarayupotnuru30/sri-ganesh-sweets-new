@@ -11,9 +11,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center font-display font-bold text-lg">
-                SG
-              </div>
+              <img src="/logo.png" alt="Sri Ganesh Sweets" className="h-10 w-10 object-contain" />
               <div>
                 <h3 className="font-display font-bold text-lg">Sri Ganesh</h3>
                 <p className="text-xs tracking-widest uppercase opacity-60">Sweets</p>

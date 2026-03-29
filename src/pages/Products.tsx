@@ -15,7 +15,9 @@ const Products = () => {
   );
 
   return (
-    <div className="min-h-screen pt-24">
+    <div className="min-h-screen pt-24 relative">
+      <div className="fixed inset-0 -z-10 bg-cover bg-center" style={{ backgroundImage: "url('/bg-products.jpg')" }} />
+      <div className="fixed inset-0 -z-10 bg-background/85 backdrop-blur-sm" />
       <section className="section-padding">
         <div className="container mx-auto">
           {/* Header */}

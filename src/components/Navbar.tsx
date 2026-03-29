@@ -34,9 +34,11 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-4">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-accent-foreground font-display font-bold text-lg shadow-md group-hover:scale-110 transition-transform">
-            SG
-          </div>
+          <img
+            src="/logo.png"
+            alt="Sri Ganesh Sweets"
+            className="h-10 w-10 object-contain group-hover:scale-110 transition-transform"
+          />
           <div className="flex flex-col">
             <span className="font-display font-bold text-lg leading-tight text-foreground">
               Sri Ganesh
