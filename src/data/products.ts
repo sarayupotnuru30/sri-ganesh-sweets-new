@@ -101,7 +101,7 @@ export const products: Product[] = [
   makeSweet("regi-vadiyalu", "Regi Vadiyalu", "Jujube fruit sun-dried sweet snack", 80, 160, 320),
   makeSweet("palli-undalu", "Palli Undalu", "Peanut and jaggery balls", 80, 160, 320),
   makeSweet("bellam-boondi-achu", "Bellam Boondi Achu", "Jaggery boondi pressed into molds", 85, 170, 340),
-  makeSweet("mallarpu-laddu", "Mallarpu Laddu", "Popped rice and jaggery laddu", 90, 180, 360),
+  makeSweet("mallarpu-laddu", "Maramarala laddu", "Popped rice and jaggery laddu", 90, 180, 360),
   makeSweet("kaju-achu", "Kaju Achu", "Cashew sweet pressed in traditional molds", 255, 510, 1020),
 ];
 
